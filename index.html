@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadioApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">RadioApp</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav centered-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#pop">Türkçe Pop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slow">Slow</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#arabesk">Arabesk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#haber">Haber & Spor</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <main>
+    <section id="pop" >
+        <div class="container" style="margin-top: 90px;">
+            <h1>
+                Türkçe Pop
+            </h1>
+        </div>
+        <div class="container">
+            <ul class="centered-list">
+                <li>
+                  <div class="content" style="background-color: #9376E0;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/alem-fm.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Alem FM</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://www.canliradyodinle.fm/radyo-cal?type=shouthtml&radyoid=780&yayinno=1" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #E893CF;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/kral-pop-dinle.png" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Kral Pop Radyo</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://dygedge.radyotvonline.net/kralpop/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #5C469C;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/power-turk-dinle.png" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Power Türk Fm</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://live.powerapp.com.tr/powerturk/abr/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #00C4FF;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/radyo-7.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Radyo 7</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://moondigitaledge.radyotvonline.net/radyo7/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #DB005B;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/kafa-radyo.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Kafa Radyo</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://moondigitaledge2.radyotvonline.net/kafaradyo/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                    <div class="content" style="background-color: #408E91;">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="row">
+                              <div class="col-6">
+                                <img src="https://www.canliradyodinle.fm/wp-content/uploads/power-pop.jpg" style="margin: 5px; border-radius: 5px;">
+                              </div>
+                              <div class="col-6 info">
+                                <h5>Power Pop</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-9">
+                            <div class="row">
+                              <div class="col-6">
+                                <button class="btn rounded-circle mx-2 playButton">
+                                  <i class="fa-solid fa-play"></i>
+                                </button>
+                                <audio class="audioPlayer" controls>
+                                  <source src="https://listen.powerapp.com.tr/powerpop/abr/playlist.m3u8" type="audio/mpeg">
+                                </audio>
+                              </div>
+                              <div class="col-6">
+                                <div class="row ses" style="margin-top: 22px;">
+                                  <div class="col-12 flex-container">
+                                    <i class="fa-solid fa-volume-high left-align volume"></i>
+                                    <input type="range" max="100" value="100" class="form-range volume-bar">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+            </ul>
+        </div>     
+    </section>
+
+    <section id="slow">
+        <div class="container">
+            <h1>
+                Slow
+            </h1>
+        </div>
+        <div class="container">
+            <ul class="centered-list">
+                <li>
+                  <div class="content" style="background-color: #F2E3DB;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/joy-turk-dinle.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Joy Türk Fm</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK_SC?/;stream.mp3" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #41644A;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/best-slow.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Best Slow</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://radyodinle.turkhosted.com/live/best-slow/icecast.audio?tkn=usaORC3NQYMwro06O4h6qA&tms=1685603014" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #263A29;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/slow-7.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Slow 7</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://turku7.radyotvonline.net/slow7?/;stream.mp3" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #E86A33;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/slow-turk-dinle.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Slow Türk</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://radyo.duhnet.tv/ak_dtvh_slowturk?/;stream.mp3" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #DB005B;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/powerturk-akustik.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>PowerTürk Akustik</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://listen.powerapp.com.tr/powerturkakustik/abr/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+        </div>     
+    </section>
+
+    <section id="arabesk">
+        <div class="container">
+            <h1>
+                Arabesk
+            </h1>
+        </div>
+        <div class="container">
+            <ul class="centered-list">
+                <li>
+                  <div class="content" style="background-color: #D14D72;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/arabesk-radyo.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Arabesk Radyo</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://yayin.radyoarabesk.com.tr:8000/stream" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #FFABAB;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/efkar-fm.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Efkar FM</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://playerservices.streamtheworld.com/api/livestream-redirect/SC008_SO1_SC?/;stream.mp3" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #FCC8D1;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/kral-fm-dinle.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Kral Fm</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #454545;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/number-one-turk-damar.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Number One Türk Damar</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://n10101m.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e3ce2c120f_1/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #DB005B;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/ask-fm.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Aşk Fm</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://stream.netradyom.com/radio/8000/radio.mp3?/;stream.mp3" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+        </div>     
+    </section>
+
+    <section id="haber">
+        <div class="container">
+            <h1>
+                Haber & Spor
+            </h1>
+        </div>
+        <div class="container">
+            <ul class="centered-list">
+                <li>
+                  <div class="content" style="background-color: #F9E2AF;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/cnn-turk-dinle.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Radyo CNN Türk</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://radyo.duhnet.tv/ak_dtvh_cnnturk?" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #009FBD;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/tgrtfm.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>TGRT FM</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://nminhgrts.mediatriple.net/tgrtfm.aac?/;stream.mp3" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #210062;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/haber-turk-radyo.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Habertürk Radyo</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://radyodinle.turkhosted.com/live/haberturkradyo_1.m3u8/icecast.audio?tkn=VSVYL10SIiRBRFaQDsjRDg&tms=1685604887" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #77037B">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/radyo-gol.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>Radyo Gol</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://moondigitaledge.radyotvonline.net/radyogol/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="content" style="background-color: #BACDDB;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-3">
+                          <div class="row">
+                            <div class="col-6">
+                              <img src="https://www.canliradyodinle.fm/wp-content/uploads/ntv-spor-radyo.jpg" style="margin: 5px; border-radius: 5px;">
+                            </div>
+                            <div class="col-6 info">
+                              <h5>NTV Spor Radyo</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div class="row">
+                            <div class="col-6">
+                              <button class="btn rounded-circle mx-2 playButton">
+                                <i class="fa-solid fa-play"></i>
+                              </button>
+                              <audio class="audioPlayer" controls>
+                                <source src="https://ssldyg.radyotvonline.com/smil/smil:ntvspor.smil/playlist.m3u8" type="audio/mpeg">
+                              </audio>
+                            </div>
+                            <div class="col-6">
+                              <div class="row ses" style="margin-top: 22px;">
+                                <div class="col-12 flex-container">
+                                  <i class="fa-solid fa-volume-high left-align volume"></i>
+                                  <input type="range" max="100" value="100" class="form-range volume-bar">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                    <div class="content" style="background-color: #27E1C1;">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="row">
+                              <div class="col-6">
+                                <img src="https://www.canliradyodinle.fm/wp-content/uploads/radyo-spor.jpg" style="margin: 5px; border-radius: 5px;">
+                              </div>
+                              <div class="col-6 info">
+                                <h5>Radyo Spor</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-9">
+                            <div class="row">
+                              <div class="col-6">
+                                <button class="btn rounded-circle mx-2 playButton">
+                                  <i class="fa-solid fa-play"></i>
+                                </button>
+                                <audio class="audioPlayer" controls>
+                                  <source src="https://moondigitaledge.radyotvonline.net/radyospor/playlist.m3u8" type="audio/mpeg">
+                                </audio>
+                              </div>
+                              <div class="col-6">
+                                <div class="row ses" style="margin-top: 22px;">
+                                  <div class="col-12 flex-container">
+                                    <i class="fa-solid fa-volume-high left-align volume"></i>
+                                    <input type="range" max="100" value="100" class="form-range volume-bar">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="content" style="background-color: #DB005B;">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="row">
+                              <div class="col-6">
+                                <img src="https://www.canliradyodinle.fm/wp-content/uploads/Bloomberg-Ht-Radyo-100x100.jpg" style="margin: 5px; border-radius: 5px;">
+                              </div>
+                              <div class="col-6 info">
+                                <h5>Bloomberg HT Radyo</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-9">
+                            <div class="row">
+                              <div class="col-6">
+                                <button class="btn rounded-circle mx-2 playButton">
+                                  <i class="fa-solid fa-play"></i>
+                                </button>
+                                <audio class="audioPlayer" controls>
+                                  <source src="https://radyodinle.turkhosted.com/live/bloombergradyo_1.m3u8/icecast.audio?tkn=pzMidyhOedajeAOvsa4pIQ&tms=1685612164" type="audio/mpeg">
+                                </audio>
+                              </div>
+                              <div class="col-6">
+                                <div class="row ses" style="margin-top: 22px;">
+                                  <div class="col-12 flex-container">
+                                    <i class="fa-solid fa-volume-high left-align volume"></i>
+                                    <input type="range" max="100" value="100" class="form-range volume-bar">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+            </ul>
+        </div>     
+    </section>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
