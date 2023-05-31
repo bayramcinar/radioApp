@@ -6,6 +6,12 @@ body{
     padding-left: 0px !important;
     padding-right: 5px !important;
 }
+#playPauseButton{
+    margin-top: 13px; color: #FFD95A; border: #FFD95A 3px solid;
+}
+#playPauseButton:hover{
+    margin-top: 13px; color: #fff; border: #fff 3px solid;
+}
 .playButton{
     margin-top: 13px; color: #FFD95A; border: #FFD95A 3px solid;
 }
@@ -13,6 +19,9 @@ body{
     margin-top: 13px; color: #fff; border: #fff 3px solid;
 }
 .volume{
+    color: #FFD95A; margin-right: 15px !important; font-size: 25px;
+}
+#volumee{
     color: #FFD95A; margin-right: 15px !important; font-size: 25px;
 }
 h1{
@@ -32,6 +41,42 @@ h5{
 .info{
     padding-left: 0px !important;
 }
+#musicPlayer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #E76161;
+    padding: 10px;
+    border-radius: 10px;
+}
+.songTitle,
+.songImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px ;
+    font-family: 'Signika Negative', sans-serif;
+
+} 
+.songImg{
+    border-radius: 5px;
+    border: #fff 2px solid;
+}
+.songInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+
 .content{
 
     margin-top: 50px;
@@ -53,6 +98,10 @@ li {
     width: 200px; 
     height: 20px; 
   } 
+  #volume-barr {
+    width: 200px; 
+    height: 20px; 
+  }
 img{
     width: 55px !important;
 }  
@@ -63,6 +112,14 @@ img{
     justify-content: center;
 
  }
+ .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
 .navbar{
     background-color: #9BA4B5 !important ;
     border-radius: 5px;
@@ -87,25 +144,13 @@ img{
     justify-content: center;
     align-items: center;
 }
-#navbarNav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 50px;
-}
+
 .navbar-brand{
     margin-right: 0 !important;
 }
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-  }
+
 @media (max-width: 767px) {
     #navbarNav{
-        display: flex;
         justify-content: center;
         align-items: center;
         margin-right: 0;
@@ -162,4 +207,7 @@ img{
      .navbar-toggler-icon{
         color: #fff;
      } 
+     #haber{
+        margin-bottom: 200px !important;
+     }
   }
